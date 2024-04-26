@@ -1,0 +1,44 @@
+
+body{
+   background-color:blue ;
+display: grid;
+place-items:center;
+height:100vh;
+margin: 0;
+
+}
+
+.card{
+background-color: #fdfdfd;
+border: radius 4px;
+height: 85vh;
+width: 85vw;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+text-align: center;
+display: flex;
+flex-direction: column ;
+justify-content: center;
+ align-items: center;
+}
+
+@media only screen and (min-widt: 1000px){
+  .card{
+    flex-direction:row-reverse ; 
+  }   
+  .card img.birthday{
+    max-height: 50%;
+  }
+}
+
+img.birthday {
+max-height: 40vh;
+}
+
+.text{
+  padding:1em ;  
+}
+
+.muted {
+ opacity: 0.8;   
+}
+
